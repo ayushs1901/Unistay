@@ -1,21 +1,21 @@
-# 🏋️ Gym Management System
+# 🏠 UniStay – Smart PG Finder Platform
 
 ## 📌 Overview
 
-A smart gym management application that helps gym owners manage members, trainers, subscriptions, and workout plans efficiently.
+UniStay is a full-stack web application designed to help students and working professionals find verified PG accommodations near their college or workplace. It works similarly to platforms like OYO and NoBroker but is focused specifically on PG discovery and roommate matching.
 
 ---
 
 ## 🚀 Features
 
-* 👤 Member management system
-* 🧑‍🏫 Trainer assignment
-* 📦 Subscription/package management
-* 🔥 Calorie tracking per exercise
-* 📊 Progress tracking dashboard
-* 📅 Trainer booking system
-* 💳 Payment tracking & expiry alerts
-* 📱 QR-based gym entry (optional)
+* 🔍 Smart PG search based on location, budget, and preferences
+* 🗺️ Map-based view with distance calculation
+* ⭐ Ratings & Reviews system
+* 👥 Roommate matching based on lifestyle preferences
+* 🏷️ Verified listings with trust badge
+* 📅 PG visit booking system
+* 💳 Payment/reservation system (optional/demo)
+* 🛠️ Admin dashboard for managing users and listings
 
 ---
 
@@ -24,14 +24,25 @@ A smart gym management application that helps gym owners manage members, trainer
 * Frontend: React.js
 * Backend: Node.js, Express.js
 * Database: MongoDB
+* APIs: REST APIs
+* Deployment: Vercel / Render
+
+---
+
+## 📊 System Design
+
+* RESTful API architecture
+* MVC pattern
+* Authentication using JWT
+* Scalable database schema for listings and users
 
 ---
 
 ## 💡 Unique Selling Points
 
-* Personalized workout recommendations
-* Smart calorie tracking system
-* Scalable gym operations management
+* Roommate matching algorithm
+* Real-time availability filtering
+* Secure and verified listing system
 
 ---
 
@@ -43,15 +54,15 @@ A smart gym management application that helps gym owners manage members, trainer
 
 ## 🔗 Live Demo
 
-(Add link here)
+(Add deployed link here)
 
 ---
 
 ## 📂 Installation
 
 ```bash
-git clone https://github.com/your-username/gym-management.git
-cd gym-management
+git clone https://github.com/your-username/unistay.git
+cd unistay
 npm install
 npm start
 ```
@@ -60,12 +71,12 @@ npm start
 
 ## ⚡ Future Improvements
 
-* AI fitness assistant
-* Diet plan generator
-* Wearable device integration
+* AI-based recommendation system
+* Mobile app version
+* Advanced fraud detection
 
 ---
 
 ## 👨‍💻 Author
 
-Ayush Shrivastava
+Ayush Shrivastav
